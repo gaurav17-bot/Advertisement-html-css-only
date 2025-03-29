@@ -1,0 +1,93 @@
+.nav-bar{
+    height:100px;
+    width:1335px;
+    background-color:rgba(0, 0, 0, 0.97);
+    display: flex;
+    align-items: center;
+}
+#logo
+{
+    height:100px;
+    width:200px; 
+    overflow: hidden;
+}
+#logo img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+#welcome{
+    font-size: 50px;
+    color:rgb(240, 10, 10);
+    margin-left:250px;
+}
+#welcome:hover{
+    font-size:53px;
+    cursor:help;
+}
+
+.second-bar
+{
+    height:60px;
+    width:1335px;
+    background-color: rgb(212, 225, 221);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#a
+{
+    height:40px;
+    width:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    cursor: pointer;
+}
+#a:hover
+{
+    font-size: 20px;
+    background-color: rgba(133, 187, 169, 0.944);
+    border-radius: 10px;
+}
+#a:active{
+    cursor:progress;
+}
+#b{
+    
+    height: 530px;
+    width:500px;
+    padding-left: 10px;
+}
+#c
+{
+    color:red;
+    font-size: 50px;
+    margin-top: 20px;
+    
+}
+#d
+{
+    font-size: 25px;
+    padding-top: 30px;
+}
+    
+    
+.main
+{
+    height:530px;
+    width:1335px;
+    background-color: rgb(166, 239, 239);
+    display:flex;
+    justify-content: space-evenly;
+
+
+}
+#d:hover
+{
+    cursor: pointer;
+    font-size: 26px;
+    color:green;
+
+}
+
