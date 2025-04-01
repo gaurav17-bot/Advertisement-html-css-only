@@ -104,12 +104,17 @@
     width:150px;
     border-radius: 1rem;
     font-size:30px;
-    background:linear-gradient(-45deg,rgb(206, 102, 102),rgb(214, 8, 42));
+    background:linear-gradient(-45deg,rgb(234, 234, 27),rgb(214, 8, 42));
     text-align:center;
     color:white;
     cursor:pointer;
 }
 .regBut:active{
     cursor:progress;
+}
+.footer{
+    height:300px;
+    width:1350px;
+    background-color: rgb(115, 113, 113);
 }
 
